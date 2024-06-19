@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: 90px 1fr;
+    margin: 0;
+}
+main {
+    float: right;
+    background-color: rgb(199, 226, 47);
+}
+
+h1 {
+    margin-left: 50px;
+    margin-top: 80px;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 90px;
+}
+
+span {
+    padding: 100px;
+    border: 1px solid firebrick;
+}
